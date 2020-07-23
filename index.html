@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <!-- chp 1 -->
+    <!-- task 6,7 -->
+    <script></script>
+    <script>
+        alert("task 6");
+    </script>
+
+    <!--  Chapter 43-48
+    task 1 -->
+    <a href="#" onclick="box()">Click here</a><br><br><br>
+    <!-- task 2 -->
+    <h1>Mobile Phone Lookup</h1>
+    <img src="images/download.jpg" width="200px" height="200px" onclick="mobile()" alt="">
+    <img src="images/download (1).jpg" width="200px" height="200px" onclick="mobile()" alt="">
+    <img src="images/download (2).jpg" width="200px" height="200px" onclick="mobile()" alt="">
+    <img src="images/download (3).jpg" width="200px" height="200px" onclick="mobile()" alt="">
+    <!-- task 3 -->
+    <table id="table">
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td>Class</td>
+        </tr>
+        <tr>
+            <td id="index">1</td>
+            <td>student1</td>
+            <td>class1</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">2</td>
+            <td>student2</td>
+            <td>class2</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">3</td>
+            <td>student3</td>
+            <td>class3</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">4</td>
+            <td>student4</td>
+            <td>class4</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+
+        </tr>
+        <tr>
+            <td id="index">5</td>
+            <td>student5</td>
+            <td>class5</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">6</td>
+            <td>student6</td>
+            <td>class6</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">7</td>
+            <td>student7</td>
+            <td>class7</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">8</td>
+            <td>student8</td>
+            <td>class8</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">9</td>
+            <td>student9</td>
+            <td>class9</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index">10</td>
+            <td>student10</td>
+            <td>class10</td>
+            <td><button onclick="student_delete(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- task 4 -->
+    <img width='300' onmouseout="src='images/download (4).jpg'" onmouseover="src='images/download (5).jpg'"
+        src="images/download (4).jpg" alt="">
+
+    <!-- task 5 -->
+    <h1 id="click">0</h1>
+    <button onclick="click_increase()">Increase</button>
+    <button onclick="click_decrease()">decrease</button>
+
+
+    <!-- chapter 49-52 -->
+    <!-- task 1 -->
+    <br>
+    <fieldset>
+        <legend>SIGN_IN</legend>
+        <label>Email:<br />
+            <input id="email" type="email" name="Email" required /></label><br />
+        <label>Password:<br />
+            <input id="pass" type="password" name="Password" required /></label><br /> <br>
+        <button onclick="submission()" type="submit">Submit</button>
+    </fieldset>
+
+    <!-- task2 -->
+    <ul id="item">
+        <li>Clothes</li>
+        <li>Shoes</li> <a href="javascript:void(0)" onclick="readMore()">Read more</a>
+    </ul>
+
+    <!-- task 3 -->
+    <form action="">
+        <label for="index">Index.No :</label><input type="text" id="index"><br><br>
+        <label for="name">Name : &nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" id="name"><br><br>
+        <label for="level">Class : &nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" id="level"><br><br>
+        <button class="add" type="button" onclick="add()">Add</button>
+    </form><br><br>
+    <table id="data" style="border: 1px solid black; border-collapse:collapse;">
+        <thead>Table
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>7th</td>
+            <td><button id="edit" type="button" onclick="edit(this)">Edit</button></td>
+            <td><button id="del" type="button" onclick="del(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- chp 52-57 -->
+    <!-- task 1 -->
+    <div id="i"></div>
+    <div id="modal" class="modal">
+        <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <!-- task 2 -->
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, provident! Ad, mollitia perferendis.
+        Consequatur,
+        neque, porro eligendi inventore ex sed ipsa nemo placeat mollitia non at quo dicta doloribus voluptate.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Totam, provident! Ad, mollitia perferendis. Consequatur,
+        neque, porro eligendi inventore ex sed ipsa nemo placeat mollitia non at quo dicta doloribus voluptate.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Totam, provident! Ad, mollitia perferendis. Consequatur,
+        neque, porro eligendi inventore ex sed ipsa nemo placeat mollitia non at quo dicta doloribus voluptate.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Totam, provident! Ad, mollitia perferendis. Consequatur,
+        neque, porro eligendi inventore ex sed ipsa nemo placeat mollitia non at quo dicta doloribus voluptate.</p>
+    <button type="button" id="in" onclick="zin()">Zoom in</button>
+    <button type="button" id="out" onclick="zout()">Zoom out</button>
+
+</body>
+<script src="app.js"></script>
+
+</html>
